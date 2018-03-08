@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9430" started-at="2018-03-08T01:51:57Z" finished-at="2018-03-08T01:52:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9430" started-at="2018-03-08T01:51:57Z" finished-at="2018-03-08T01:52:07Z">
+      <class name="ExyentReportScreenshot.ExyentReportScreenshot1.FreeCRMTest">
+        <test-method status="PASS" signature="setExtend()[pri:0, instance:ExyentReportScreenshot.ExyentReportScreenshot1.FreeCRMTest@475530b9]" name="setExtend" is-config="true" duration-ms="427" started-at="2018-03-07T20:51:57Z" finished-at="2018-03-07T20:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtend -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:ExyentReportScreenshot.ExyentReportScreenshot1.FreeCRMTest@475530b9]" name="setup" is-config="true" duration-ms="8936" started-at="2018-03-07T20:51:58Z" finished-at="2018-03-07T20:52:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FreeCRMTitleTest()[pri:0, instance:ExyentReportScreenshot.ExyentReportScreenshot1.FreeCRMTest@475530b9]" name="FreeCRMTitleTest" duration-ms="29" started-at="2018-03-07T20:52:07Z" finished-at="2018-03-07T20:52:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FreeCRMTitleTest -->
+        <test-method status="FAIL" signature="teardown(org.testng.ITestResult)[pri:0, instance:ExyentReportScreenshot.ExyentReportScreenshot1.FreeCRMTest@475530b9]" name="teardown" is-config="true" duration-ms="0" started-at="2018-03-07T20:52:07Z" finished-at="2018-03-07T20:52:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FreeCRMTitleTest status=SUCCESS method=FreeCRMTest.FreeCRMTitleTest()[pri:0, instance:ExyentReportScreenshot.ExyentReportScreenshot1.FreeCRMTest@475530b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at ExyentReportScreenshot.ExyentReportScreenshot1.FreeCRMTest.teardown(FreeCRMTest.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="SKIP" signature="endReport()[pri:0, instance:ExyentReportScreenshot.ExyentReportScreenshot1.FreeCRMTest@475530b9]" name="endReport" is-config="true" duration-ms="0" started-at="2018-03-07T20:52:07Z" finished-at="2018-03-07T20:52:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- ExyentReportScreenshot.ExyentReportScreenshot1.FreeCRMTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
